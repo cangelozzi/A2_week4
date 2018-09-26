@@ -1,17 +1,15 @@
 // import _vars
 @import '_vars';
 
-.courseStuff{
-    background-color: $bg_content;
-}
-.sNav{
-    background-color: $bg_sidebar_color;
-}
-.sideHead{
-    background-color: $bg_admin_color;
-    color: #ffffff;
-}
-.mainCfooter{
-    background-color: $bg_footer;
-    color: #ffffff;
-}
+// import core modules partials
+@import 'modules/sidebar';
+@import 'modules/_header';
+@import 'modules/_hero';
+@import 'modules/_content';
+@import 'modules/_footer';
+
+
+
+
+
+
