@@ -1,2 +1,17 @@
 // import _vars
 @import '_vars';
+
+.courseStuff{
+    background-color: $bg_content;
+}
+.sNav{
+    background-color: $bg_sidebar_color;
+}
+.sideHead{
+    background-color: $bg_admin_color;
+    color: #ffffff;
+}
+.mainCfooter{
+    background-color: $bg_footer;
+    color: #ffffff;
+}
