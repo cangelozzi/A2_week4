@@ -1,6 +1,17 @@
 // gulp modules required
 let gulp = require('gulp');
 let sass = require('gulp-sass');
+let browserSync = require("browser-sync").create();
+
+// server task
+gulp.task('serve', function () {
+  browserSync.init({
+    server: {
+      baseDir: './',
+      index: 'index.html'
+    }
+  });
+});
 
 // compile Sass task
 gulp.task('sass', function () {
